@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import UiShared from './UiShared';
+import Banner from './Banner';
 
-describe('UiShared', () => {
+describe('Banner', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<UiShared />);
+    const { baseElement } = render(<Banner />);
     expect(baseElement).toBeTruthy();
   });
 });

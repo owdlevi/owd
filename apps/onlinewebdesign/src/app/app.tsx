@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import NxWelcome from './nx-welcome';
-import { UiShared } from '@owd/ui/shared';
+import { Banner, ThemeProvider } from '@owd/ui/shared';
 
 const StyledApp = styled.div`
   // Your style here
@@ -8,10 +8,9 @@ const StyledApp = styled.div`
 
 export function App() {
   return (
-    <StyledApp>
-      <UiShared />
-      <NxWelcome title="onlinewebdesign" />
-    </StyledApp>
+    <ThemeProvider>
+      <Banner />
+    </ThemeProvider>
   );
 }
 

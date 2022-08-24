@@ -1,1 +1,2 @@
-export * from './lib/UiShared';
+export * from './lib/Banner/Banner';
+export * from './lib/ThemeProvider';
