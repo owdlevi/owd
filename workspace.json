@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "onlinewebdesign": "apps/onlinewebdesign",
-    "onlinewebdesign-e2e": "apps/onlinewebdesign-e2e"
+    "onlinewebdesign-e2e": "apps/onlinewebdesign-e2e",
+    "ui-shared": "libs/ui/shared"
   }
 }
