@@ -1,15 +1,12 @@
-import styled from '@emotion/styled';
 import NxWelcome from './nx-welcome';
-import { Banner, ThemeProvider } from '@owd/ui/shared';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
+import { Layout, ThemeProvider } from '@owd/ui/shared';
 
 export function App() {
   return (
     <ThemeProvider>
-      <Banner />
+      <Layout>
+        <NxWelcome title="Test" />
+      </Layout>
     </ThemeProvider>
   );
 }
